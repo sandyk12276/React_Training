@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Stylesheets/mystyle.css'
 
 export default class CountPeople extends React.Component{
     constructor(){

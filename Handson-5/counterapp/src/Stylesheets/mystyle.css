@@ -1,4 +1,11 @@
 .center{
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 300px;
+}
+.cendter{
+   background-color:green;
+   border: 3px;
+}
+span{
+
+    padding-right: 50px; 
 }
