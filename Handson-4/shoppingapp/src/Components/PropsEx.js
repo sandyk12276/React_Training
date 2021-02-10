@@ -6,7 +6,10 @@ class Cart extends React.Component {
       return(
         <div>
             <table class='table' border='1'>
-
+            <tr>
+                     <th>Name</th>
+                     <th>Price</th>
+                 </tr>
         { this.props.item.map((item)=>
             {
              return(
