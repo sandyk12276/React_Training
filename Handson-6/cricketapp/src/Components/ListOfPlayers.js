@@ -16,7 +16,7 @@ export class ListOfPlayers extends Component {
             players.map((item) => {
                 return (
                     <div>
-                        <li>Mr. {item.name}<span>{item.score}</span></li>
+                        <li>Mr. {item.name}<span> {item.score}</span></li>
                     </div>
                 )
             }
@@ -32,7 +32,7 @@ export class Scorebelow70 extends Component {
                 if (item.score <= 70) {
                     return (
                         <div>
-                            <li>Mr. {item.name}<span>{item.score}</span></li>
+                            <li>Mr. {item.name}<span> {item.score}</span></li>
                         </div>)
                 }
             }
