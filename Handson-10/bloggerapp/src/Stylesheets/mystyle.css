@@ -1,0 +1,19 @@
+.c1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.c2 {
+    display: flex;
+}
+
+.c3 {
+    text-align: left;
+}
+
+hr {
+    background: green;
+    width: 1%;
+}
+

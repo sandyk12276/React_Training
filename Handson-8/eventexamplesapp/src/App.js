@@ -2,7 +2,6 @@ import React, { useState } from "react";
 //import '../src/StyleSheets/mystyle1.css'
 import { CurrencyConvertor } from "../src/Components/CurrencyConverter";
 
-
 const App = () => {
   const [count, setCount] = useState(0);
   const sayHello = (name) => {
