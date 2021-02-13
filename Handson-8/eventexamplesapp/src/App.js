@@ -25,10 +25,10 @@ const App = () => {
   return (
     <div>
       <p>{count}</p>
-      <button onClick={() => { sayHello("CTS"); setCount(count + 1) }}>Increment</button><br />
+      <button onClick={() => { sayHello("Member 1!"); setCount(count + 1) }}>Increment</button><br />
       <button onClick={() => setCount(count - 1)}>Decrement</button><br />
-      <button value="Hello" onClick={(e) => alert(e.target.value)}>
-        Say
+      <button value="Welcome" onClick={(e) => alert(e.target.value)}>
+        Say Welcome
       </button><br />
       <CustomButton onPress={handleEvent} /><br />
       <CurrencyConvertor />

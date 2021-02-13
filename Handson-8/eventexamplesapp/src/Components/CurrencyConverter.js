@@ -9,12 +9,9 @@ export class CurrencyConvertor extends React.Component {
             currency: '',
             TotalAmt: 1
         };
-
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(event) {
+    handleChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
     }
 
@@ -25,8 +22,8 @@ export class CurrencyConvertor extends React.Component {
         })
     }
 
-    handleSubmit(event) {
-        var msg = 'Converting to  ' + this.state.currency + ' Amount is ' + this.state.TotalAmt;
+    handleSubmit = (event) => {
+        var msg = `Converting to ${this.state.currency} Amount is ${this.state.TotalAmt}`;
         alert(msg);
         event.preventDefault();
     }
