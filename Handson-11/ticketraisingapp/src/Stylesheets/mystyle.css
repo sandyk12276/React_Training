@@ -1,0 +1,17 @@
+.button1{
+    text-align: center;
+    column-span: 2;
+}
+
+.label{
+    text-align: left;
+}
+
+.input{
+    width: 100%;
+}
+
+h1{
+    text-align: left;
+    color: red;
+}
